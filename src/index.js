@@ -1,11 +1,7 @@
 import './style.css';
+import addScore from './modules/addScore';
 
-function component() {
-    const element = document.createElement('div');
-    element.innerHTML = 'hellowwww';
-    // element.classList.add('hello');
-    
-    return element;
-}
+const form = document.querySelector('.form');
 
-document.body.appendChild(component());
+
+form.addEventListener('submit', addScore)
