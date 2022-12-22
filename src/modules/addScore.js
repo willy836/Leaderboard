@@ -1,5 +1,4 @@
-import { postScore } from "./postScore";
-const url = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/E5CkFPiR62Z5ynowbDgd/scores/';
+import postScore from './postScore.js';
 
 const scoresContainer = document.querySelector('.scores-container');
 const name = document.querySelector('.name');
@@ -12,9 +11,9 @@ const addScore = (e) => {
   if (name.value && score.value) {
     const userInput = {
       user: nameValue,
-      score: scoreValue
-    }
-    
+      score: scoreValue,
+    };
+
     postScore(userInput.user, userInput.score);
     name.value = '';
     score.value = '';

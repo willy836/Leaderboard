@@ -1,11 +1,11 @@
 import './style.css';
 import addScore from './modules/addScore.js';
-import { addScoreToBoard } from './modules/addToLeaderboard';
+import addScoreToBoard from './modules/addToLeaderboard.js';
 
 const form = document.querySelector('.form');
-const baseUrl = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/'
+// const baseUrl = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/';
 
-//get game id
+// get game id
 // const getGameId = () => {
 //     fetch(baseUrl+"games/", {
 //       method: "POST",
@@ -20,18 +20,13 @@ const baseUrl = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/
 //       .then((json) => console.log(json));
 //   };
 
-  //Game ID E5CkFPiR62Z5ynowbDgd
-  
-//getGameId();
+// Game ID E5CkFPiR62Z5ynowbDgd
+
+// getGameId();
 addScoreToBoard();
-form.addEventListener('submit', addScore)
+form.addEventListener('submit', addScore);
 
-addScoreToBoard()
-
+addScoreToBoard();
 
 const refreshBtn = document.querySelector('.refresh-btn');
-refreshBtn.addEventListener('click', addScoreToBoard)
-
-
-
-
+refreshBtn.addEventListener('click', addScoreToBoard);
