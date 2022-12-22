@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/willy836/Leaderboard#readme",
   "dependencies": {
+    "cors": "^2.8.5",
     "css-loader": "^6.7.3",
     "html-webpack-plugin": "^5.5.0",
     "style-loader": "^3.3.1",
