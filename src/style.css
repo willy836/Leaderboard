@@ -42,11 +42,8 @@ section {
 
 .scores-container {
   border: 2px solid black;
-  display: none;
-}
-
-.show-container {
-  display: block;
+  height: 60vh;
+  overflow-y: auto;
 }
 
 .user-score {
