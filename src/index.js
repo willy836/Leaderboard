@@ -3,26 +3,7 @@ import addScore from './modules/addScore.js';
 import addScoreToBoard from './modules/addToLeaderboard.js';
 
 const form = document.querySelector('.form');
-// const baseUrl = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/';
 
-// get game id
-// const getGameId = () => {
-//     fetch(baseUrl+"games/", {
-//       method: "POST",
-//       body: JSON.stringify({
-//         name: "Wilson's game",
-//       }),
-//       headers: {
-//         "Content-type": "application/json; charset=UTF-8",
-//       },
-//     })
-//       .then((response) => response.json())
-//       .then((json) => console.log(json));
-//   };
-
-// Game ID E5CkFPiR62Z5ynowbDgd
-
-// getGameId();
 addScoreToBoard();
 form.addEventListener('submit', addScore);
 
@@ -30,3 +11,20 @@ addScoreToBoard();
 
 const refreshBtn = document.querySelector('.refresh-btn');
 refreshBtn.addEventListener('click', addScoreToBoard);
+
+// const gameId = ()=> {
+//     fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/', {
+//         method: "POST",
+//         headers: {
+//             "Content-Type": "application/json",
+//         },
+//         body: JSON.stringify({
+//             name: "Wilson's game",
+//         })
+//     })
+//     .then(res => res.json())
+//     .then(myId => console.log(myId))
+// }
+// gameId();
+
+// ID = 6doU8vQZxTk2EuYUh4xO

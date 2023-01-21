@@ -1,6 +1,5 @@
 import postScore from './postScore.js';
 
-const scoresContainer = document.querySelector('.scores-container');
 const name = document.querySelector('.name');
 const score = document.querySelector('.score');
 
@@ -17,7 +16,6 @@ const addScore = (e) => {
     postScore(userInput.user, userInput.score);
     name.value = '';
     score.value = '';
-    scoresContainer.classList.add('show-container');
   }
 };
 
