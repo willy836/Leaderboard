@@ -2,7 +2,6 @@ const url = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/game
 
 const postScore = async (user, score) => {
   const response = await fetch(url, {
-
     method: 'POST',
     headers: {
       'content-type': 'application/json; charset=UTF-8',
