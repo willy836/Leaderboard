@@ -38,10 +38,12 @@
 **[Leaderboard]** is a project that displays scores submitted by different players. It also allows a user to submit their own score. All data is preserved by the external leaderboard API service.
 
 ## 🛠 Built With <a name="built-with">
+
 Webpack
 </a>
 
 ### Tech Stack <a name="tech-stack">
+
 Leaderboard API
 JavaScript
 CSS3
@@ -50,7 +52,7 @@ HTML
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
+- [Live Demo Link](https://willy836.github.io/Leaderboard/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -61,22 +63,27 @@ To get a local copy up and running, follow these steps.
 ### Prerequisites
 
 In order to run this project you need:
- - IDE(Code editor) eg VScode
- - Git
+
+- IDE(Code editor) eg VScode
+- Git
+
 ### Setup
 
 Clone this repository to your desired folder:
- - git clone https://github.com/willy836/Leaderboard
- - cd Leaderboard/
- - code .
- - open dist/index.html with live server
+
+- git clone https://github.com/willy836/Leaderboard
+- cd Leaderboard/
+- code .
+- open dist/index.html with live server
 
 ### Install
 
 Install this project with:
- - linters and other necessary dependencies (npm install)
+
+- linters and other necessary dependencies (npm install)
 
 ### Usage
+
 This project can be used by anyone who wants to learn Webpack, JavaScript, and how to use an external API service
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
